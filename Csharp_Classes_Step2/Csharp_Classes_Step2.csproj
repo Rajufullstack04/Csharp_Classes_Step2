@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FieldBasics_NonStatic</StartupObject>
+    <StartupObject>FileDetailsConstructors</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,9 @@
   <ItemGroup>
     <Compile Include="1.FieldBasics_Static.cs" />
     <Compile Include="2.FieldBasics_NonStatic.cs" />
+    <Compile Include="3.PropertiesDemo.cs" />
+    <Compile Include="4.ClassArrayAndPublicDemos.cs" />
+    <Compile Include="5.Constructors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
