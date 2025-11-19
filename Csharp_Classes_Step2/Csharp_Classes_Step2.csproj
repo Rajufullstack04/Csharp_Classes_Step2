@@ -52,7 +52,7 @@
     <Compile Include="4.ClassArrayAndPublicDemos.cs" />
     <Compile Include="5.Constructors.cs" />
     <Compile Include="6.ConsatntAndReadonly.cs" />
-    <Compile Include="7.NameSpeces\1.AllaFiles.cs" />
+    <Compile Include="7.NameSpeces\1.AllFiles.cs" />
     <Compile Include="7.NameSpeces\2.ExcelFiles.cs" />
     <Compile Include="7.NameSpeces\3.PPTFiles.cs" />
     <Compile Include="7.NameSpeces\4.WordFiles.cs" />
