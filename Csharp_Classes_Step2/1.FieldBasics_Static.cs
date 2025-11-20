@@ -20,7 +20,7 @@
 
 
 
-    static void Main(string[] args)
+    static void Main()
     {
         string studentFileName = FieldBasics.fileName;
         //Console.WriteLine(studentFileName);

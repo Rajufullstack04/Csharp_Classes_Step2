@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
+    <StartupObject>Csharp_Classes_Step2.LoggerFile</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,10 +57,15 @@
     <Compile Include="7.NameSpeces\3.PPTFiles.cs" />
     <Compile Include="7.NameSpeces\4.WordFiles.cs" />
     <Compile Include="7.NameSpeces\5.MainProgarm.cs" />
+    <Compile Include="8.StaticClass.cs" />
+    <Compile Include="9.LoggerFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
