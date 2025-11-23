@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Csharp_Classes_Step2.LoggerFile</StartupObject>
+    <StartupObject>SimplePolymorphism.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.FieldBasics_Static.cs" />
+    <Compile Include="10.Inhiretance\1.ClassInhiretance.cs" />
+    <Compile Include="10.Inhiretance\2.InterFaceInheritance.cs" />
+    <Compile Include="11.Implementation\1.LionTings.cs" />
+    <Compile Include="12.Abstraction\WashingMachines.cs" />
+    <Compile Include="13.Polymorphisam\1.CompileTimePolymorphsiam.cs" />
     <Compile Include="2.FieldBasics_NonStatic.cs" />
     <Compile Include="3.PropertiesDemo.cs" />
     <Compile Include="4.ClassArrayAndPublicDemos.cs" />
@@ -64,8 +69,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
