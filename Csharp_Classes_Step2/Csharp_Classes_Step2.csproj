@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SimplePolymorphism.Program</StartupObject>
+    <StartupObject>RuntimePolyVehicles.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="11.Implementation\1.LionTings.cs" />
     <Compile Include="12.Abstraction\WashingMachines.cs" />
     <Compile Include="13.Polymorphisam\1.CompileTimePolymorphsiam.cs" />
+    <Compile Include="13.Polymorphisam\2.RunTimePolymorphisam.cs" />
     <Compile Include="2.FieldBasics_NonStatic.cs" />
     <Compile Include="3.PropertiesDemo.cs" />
     <Compile Include="4.ClassArrayAndPublicDemos.cs" />
